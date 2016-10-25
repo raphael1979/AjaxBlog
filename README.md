@@ -8,7 +8,7 @@ Votre code JS doit aller dans `js/app.js`, votre CSS dans `css/style.css`
 NB: n'oubliez pas de lancez Caddy (sans quoi les fichiers liés ne marcheront pas) et Browser-Sync
 
 ## Etape 1
-- Récuperez le fichier markdown du serveur distant
+- Récuperez le fichier markdown `/example.md` du serveur distant  
 - transformez le en HTML grace à showdown
 - insérez le dans votre page html dans un element `<div id="md">` que vous aurez créé auparavant
 
@@ -17,4 +17,5 @@ Vous récuperez également un fichier JSON accessible à l'URL `/menu.json` qui 
 
 ## Etape 3
 Vous devrez recréer le serveur localement grace au paquet [Express](http://expressjs.com/fr/)
+
 [Des applications ultra-rapides avec Node.js - OpenClassroom](https://openclassrooms.com/courses/des-applications-ultra-rapides-avec-node-js/le-framework-express-js)
