@@ -13,7 +13,7 @@ NB: n'oubliez pas de lancez Caddy (sans quoi les fichiers liés ne marcheront pa
 - insérez le dans votre page html dans un element `<div id="md">` que vous aurez créé auparavant
 
 ## Etape 2
-Vous récuperez également un fichier JSON qui contient les liens et titres de plusieurs posts, vous insérez le contenu dans votre page HTML pour créer un menu.
+Vous récuperez également un fichier JSON accessible à l'URL `/menu.json` qui contient les liens et titres de plusieurs posts, vous insérez le contenu dans votre page HTML pour créer un menu.
 
 ## Etape 3
 Vous devrez recréer le serveur localement grace au paquet [Express](http://expressjs.com/fr/)
