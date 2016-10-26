@@ -23,8 +23,8 @@ Vous devrez recréer le serveur localement grace au paquet [Express](http://expr
 
 ### Bonus mode
 
-Sur votre serveur, créez une page HTML qui permets d'éditer les posts et une autre qui permets d'ajouter un nouveau post (cette route doit également mettre à jour le fichier menu.json)
+Sur votre serveur, créez une page HTML qui permet d'éditer les posts et une autre qui permet d'ajouter un nouveau post (cette route doit également mettre à jour le fichier menu.json)
 
-La page d'édition dispose de trois champs, un champ `<input type="hidden'>` qui contient le nom du fichier à éditer, unn champ `<input type="text">` qui permet de mettre à jour le titre du post, et un champ `<textarea>` qui permets de modifier le contenu du fichier.
+La page d'édition dispose de trois champs, un champ `<input type="hidden'>` qui contient le nom du fichier à éditer, unn champ `<input type="text">` qui permet de mettre à jour le titre du post, et un champ `<textarea>` qui permet de modifier le contenu du fichier.
 
 Pour le formulaire d'ajout, la seule différence réside dans le type du champs qui contient le nom du fichier à créer est de type text.
